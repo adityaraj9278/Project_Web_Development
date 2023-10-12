@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html bgcolor="black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Evaluation System</title>
+  <title>PDF Storage</title>
+  <link rel="stylesheet" href="adi_css.css">
+</head>
+<body>
+  <h1 style="color:red;">Examination Evaluation Automation System</h1>
+  <div class="container">
+      <div style="width: 100%; height: 200px;">
+          <div style="width: 50%; height: 200px; float: left; background: rgb(109, 183, 222);">
+              <h1>PDF Storage</h1>
+              <form id="upload-form" action="/Demotest.html">
+                  <input type="file" id="file-input" class="file-input" accept=".pdf" single>
+                  <button type="submit" style="margin-bottom: 5px;">Upload</button>
+                  <button onclick="resetFile()" style="background-color:rgb(95, 148, 234)">Reset</button>
+              </form>
+          </div>
+          <div style="margin-left: 50%; height: 200px; background:rgb(135, 163, 218); overflow-y: scroll;">
+            <h3 style="color:blueviolet;">Uploaded Files:</h3>
+              <ul id="file-list" class="file-list"></ul>
+          </div>
+      </div>
+
+  </div>
+  <script src="script1.js"></script>
+  <div class="container">
+    <div class="questions">
+      <label for="question">Question Number:</label>
+      <select id="question">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+    </div>
+    <div class="sub-questions">
+      <label for="sub-question">Sub Question:</label>
+      <select id="sub-question">
+          <option value="a">A</option>
+          <option value="b">B</option>
+      </select>
+    </div>
+    <div class="marks">
+      <label for="marks">Marks:</label>
+      <select id="marks">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+    </div>
+       <h1>Total Marks: <label id="lbttot"></label></h1>
+    <button onclick="submitMarks()">Submit</button>
+  </div>
+</body>
+</html>

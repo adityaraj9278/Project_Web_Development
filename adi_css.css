@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.file-input {
+  margin-bottom: 10px;
+  margin-left: 180px;
+}
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+.file-list-item {
+  display: flex;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.file-list-item img {
+  width: 24px;
+  margin-right: 10px;
+}
+.file-list-item a {
+  text-decoration: none;
+
+}
+.h1{
+  align-items: center;
+}
+body {
+  background-image: url(pic/picture2.jpeg);
+  background-size: cover;
+
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #e9f2a8;
+}
+
+.container {
+max-width: 1000px;
+margin: 50px auto;
+background-color: #eeebf5;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(135, 243, 34, 0.226);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.marks,.questions,.sub-questions {
+display: inline-block;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.marks label {
+margin-right: 10px;
+}
+
+.marks select,.questions select,.sub-questions select {
+padding: 5px;
+border: 1px solid #a19797;
+border-radius: 3px;
+}
+
+button {
+background-color: #017598;
+color: #121111;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+}
+.box-centerside {
+background: url("../images/greybox-center-bg1.jpg") repeat-x scroll center top transparent;
+float: left;
+min-height: 100px;
+width: 260px;
+}
+
+button:hover {
+background-color: #d8daef;
+}
